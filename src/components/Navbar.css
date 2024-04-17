@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: center; /* Change from 'space-between' to 'center' */
+  align-items: center;
+  background-color: #0C0C0C;
+  height: 8vh;
+  padding: 10px 20px;
+  position: fixed; /* Optional: Make navbar fixed at the top */
+  width: 100%; /* Optional: Make navbar take full width */
+  top: 0; /* Optional: Align navbar at the top */
+  z-index: 1000; /* Optional: Set a high z-index to ensure it's above other content */
+}
+
+  
+  .navbar-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .nav-item a {
+    color: rgb(23, 17, 192);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    color: rgba(223, 21, 21, 0.763);
+    /* text-decoration: underline; */
+    /* transform: rotateX('120'); */
+    font-size: 23px;
+    transition: all 0.1s ;
+  }
+  
